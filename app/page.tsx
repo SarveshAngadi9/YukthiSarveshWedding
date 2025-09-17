@@ -51,19 +51,19 @@ export default function Home() {
         </div>*/}
 
        <div className="max-w-7xl mx-auto px-4 text-center font-sans">
-          <p className="text-xs tracking-widest text-slate-600 mb-6 font-mono">OUR STORY</p>
-          <h2 className="text-3xl font-serif text-slate-800 mb-8 tracking-wide">
+          <p className="text-xl tracking-widest text-slate-600 mb-6 font-mono">OUR STORY</p>
+          <h2 className="text-4xl font-serif text-slate-800 mb-8 tracking-wide">
             DANCE, DANCE, DANCE
           </h2>
           <div className="max-w-5xl mx-auto px-4">
-              <p className="text-xl md:text-2xl font-serif text-slate-700 leading-10  text-justify">
+              <p className="text-2xl md:text-3xl font-serif text-slate-700 leading-10  text-justify">
                 We first met at the office — not love at first sight, but a smile that refused to fade.
                 Those little conversations soon turned into hours of sharing thoughts, emotions, and big ideas about life.
                 Yukthi’s kindness, empathy, and laughter pulled Sarvesh closer every single day.
     
               </p>
-              <p className="text-xl md:text-2xl font-serif text-slate-700 leading-10  text-justify mt-6">
-                Together we’ve faced every emotion — anger, jealousy, joy, and endless laughter — and grown stronger through it all.
+              <p className="text-2xl md:text-3xl font-serif text-slate-700 leading-10  text-justify mt-6">
+                Together we’ve faced every emotion — anger, jealousy, joy, and endless laughter and grown stronger through it all.
                 From Kotagiri to Ooty to Gokarna, adventures only proved how unshakable this bond really is.
                 And now… the wait is over! Sarvesh and Yukthi are getting married — come celebrate love, laughter, and the start of forever! 💍✨
               </p>
@@ -96,13 +96,15 @@ export default function Home() {
         <div className="absolute top-1/5 right-1/3 w-4 h-4 bg-rose-300 rounded-full opacity-50"></div>
 
         <div className="w-full px-4 ">
-          <Card className="bg-white/80 border-rose-200 p-14 md:p-24 relative rounded-none" style={{ backgroundColor: "#FEEEE9" }}>
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
+          <Card className="bg-white/80 border-rose-400 p-16 md:p-14 relative rounded-none" style={{ backgroundColor: "#FEEEE9" }}>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               {/* Text Block (transparent square) */}
               <div className="flex flex-col items-start justify-start border border-transparent p-6 aspect-square">
-                <p className="text-xs tracking-widest text-slate-600 mb-4 font-mono">FUN FACTS</p>
-                <h3 className="text-3xl md:text-4xl font-serif text-slate-800 mb-3">Quick lil quiz about</h3>
-                <h3 className="text-3xl md:text-4xl font-serif text-slate-800">the happy couple</h3>
+                <p className="text-s tracking-widest text-slate-600 mb-4 font-mono">FUN FACTS</p>
+                <h3 className="text-6xl md:text-4xl font-serif text-slate-800 mb-3">Quirky lil quiz about</h3>
+                <h3 className="text-6xl md:text-4xl font-serif text-slate-800">the happy couple</h3>
+                <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                <h3  className="text-[0.8rem] md:text-s text-green-600 tracking-[0.05em]" style={{ fontFamily: '"Segoe UI Semilight", "Segoe UI", sans-serif' }}>Hover for answer</h3>
               </div>
 
             

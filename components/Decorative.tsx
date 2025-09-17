@@ -169,7 +169,7 @@ const Decorative: React.FC = () => {
       <div className="absolute bottom-2/4 right-1/5 w-5 h-5 bg-orange-300 rounded-full opacity-30 z-0"></div>
       <div className="absolute top-3/4 left-3/3 w-2 h-2 bg-green-300 rounded-full opacity-60 z-0"></div>
 
-
+      {/* Yellow flower beside name */}
        <div className="absolute top-3/6 left-3/5 w-[60px] h-[80px]">
             <svg
             viewBox="0 0 100 100"
@@ -199,7 +199,8 @@ const Decorative: React.FC = () => {
             </svg>
         </div>
 
-        <div className="absolute bottom-4 left-2/7 w-[120px] h-[140px]">
+        {/* Yellow flower beside name*/}
+        <div className="absolute bottom-4 left-2/9 w-[320px] h-[340px]">
           <svg
             viewBox="0 0 120 140"
             className="w-full h-full"
@@ -209,13 +210,23 @@ const Decorative: React.FC = () => {
           >
             {/* Main yellow plant form */}
             <path
-              d="M60,130 
-                 Q40,100 30,60 
-                 Q20,30 35,20 
-                 Q50,30 55,60 
-                 Q60,20 75,15 
-                 Q90,30 85,60 
-                 Q80,90 65,130 Z"
+              d="M55,140
+                 Q40,100 30,60
+                 Q25,35 35,20
+                 Q50,40 48,80
+                 Q47,110 55,140 Z
+
+                 M65,140
+                 Q60,90 62,50
+                 Q63,25 70,10
+                 Q78,30 76,70
+                 Q74,110 70,140 Z
+
+                 M75,140
+                 Q85,100 90,70
+                 Q93,40 85,25
+                 Q80,50 78,90
+                 Q77,115 75,140 Z"
               fill="#e0b222"
             />
 
@@ -230,7 +241,7 @@ const Decorative: React.FC = () => {
         </div>
 
 
-        <div className="absolute top-3/5 left-6/7 w-[200px] h-[160px]">
+        <div className="absolute top-4/8 left-6/7 w-[300px] h-[250px]">
               <svg
                 viewBox="0 0 200 160"
                 className="w-full h-full"

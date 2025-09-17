@@ -3,7 +3,7 @@ import React from "react";
 
 const AbstractYellowFlower: React.FC = () => {
   return (
-    <div className="absolute top-1/6 left-3/4 w-[80px] h-[80px]">
+    <div className="absolute top-1/6 left-3/4 w-[120px] h-[120px]">
       <svg
         viewBox="0 0 100 100"
         className="w-full h-full"
