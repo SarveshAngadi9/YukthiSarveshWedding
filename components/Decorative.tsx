@@ -4,7 +4,7 @@ const Decorative: React.FC = () => {
   return (
     <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
       {/* --- Large dark green organic plant form on the left --- */}
-      <div className="absolute left-0 top-0 w-28 h-36 sm:w-48 sm:h-64 md:w-[500px] md:h-[600px]">
+      <div className="absolute left-0 top-0 w-44 h-52 sm:w-48 sm:h-64 md:w-[500px] md:h-[600px]">
         <svg viewBox="0 0 320 420" className="w-full h-full" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="big decorative plant">
           <path d="M60,420 Q75,360 90,300 Q105,240 120,180 Q135,120 150,60 Q165,30 170,0" stroke="#1a5f5f" strokeWidth="10" fill="none" />
           <ellipse cx="50" cy="140" rx="30" ry="55" fill="#1a5f5f" transform="rotate(-20 50 140)" />
@@ -96,7 +96,7 @@ const Decorative: React.FC = () => {
       </div>
 
       {/* --- Right-side green/abstract blob (explicit, always visible, scaled) --- */}
-      <div className="absolute bottom-12 right-6 sm:bottom-16 sm:right-12 md:bottom-24 md:right-32 w-20 h-24 sm:w-32 sm:h-40 md:w-64 md:h-48 opacity-70">
+     <div className="absolute bottom-12 right-6 sm:bottom-16 sm:right-12 md:bottom-24 md:right-32 w-28 h-32 sm:w-32 sm:h-40 md:w-64 md:h-48 opacity-70">
         <svg viewBox="0 0 200 160" className="w-full h-full" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="abstract blob with plant form">
           <path d="M20,80 Q30,30 80,40 Q140,50 170,90 Q150,140 80,130 Q30,120 20,80 Z" fill="#f9f4f2" stroke="#163830" strokeWidth="2" />
           <circle cx="55" cy="70" r="4" fill="#c8d8c4" />
@@ -111,7 +111,7 @@ const Decorative: React.FC = () => {
       </div>
 
       {/* --- Bottom-right yellow plant (explicit, always visible, scaled) --- */}
-      <div className="absolute bottom-4 left-98 sm:bottom-8 sm:right-12 md:bottom-16 md:right-24 w-28 h-32 sm:w-[220px] sm:h-[240px] md:w-[320px] md:h-[340px] opacity-95">
+      <div className="absolute bottom-4 left-6 sm:bottom-8 sm:left-14 md:bottom-16 md:left-[26rem] w-28 h-32 sm:w-[220px] sm:h-[240px] md:w-[320px] md:h-[340px] opacity-95">
         <svg viewBox="0 0 120 140" className="w-full h-full" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="yellow plant with decorative dots">
           <path d="M55,140 Q40,100 30,60 Q25,35 35,20 Q50,40 48,80 Q47,110 55,140 Z M65,140 Q60,90 62,50 Q63,25 70,10 Q78,30 76,70 Q74,110 70,140 Z M75,140 Q85,100 90,70 Q93,40 85,25 Q80,50 78,90 Q77,115 75,140 Z" fill="#e0b222" />
           <circle cx="55" cy="65" r="3" fill="#163830" />
