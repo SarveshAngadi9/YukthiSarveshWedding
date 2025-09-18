@@ -67,13 +67,14 @@ export default function Home() {
                 What started as passing discussions soon turned into long exchanges about life, ambitions, and dreams. 
                 With every conversation, the connection deepened, and so did the friendship — eventually leading us to this beautiful step forward.
 
-                And now… the wait is over! We are getting married — come celebrate love, laughter, and the start of forever! 💍✨
+                 Come celebrate, cheer us on, and be part of our story as we begin this brand-new adventure together. 💍✨
               </p>
             </div>
         </div>
       </section>
 
-      {/* Fun Facts Quiz Section */}
+      {/*
+      //* Fun Facts Quiz Section *
       <section className="w-full py-20 relative z-10 bg-rose-50" style={{ backgroundColor: "#FEF1EC" }}>
         <div className="absolute top-0 left-1/4 w-72 h-72 opacity-12">
           <svg viewBox="0 0 250 250" className="w-full h-full">
@@ -100,7 +101,7 @@ export default function Home() {
         <div className="w-full px-4 ">
           <Card className="bg-white/80 border-rose-400 p-6 sm:p-10 md:p-14 relative rounded-none" style={{ backgroundColor: "#FEEEE9" }}>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-              {/* Text Block (transparent square) */}
+              {/* Text Block (transparent square) *
               <div className="flex flex-col items-start justify-start border border-transparent p-6 aspect-square">
                 <p className="text-s tracking-widest text-slate-600 mb-4 font-mono">FUN FACTS</p>
                 <h3 className="text-6xl md:text-4xl font-serif text-slate-800 mb-3">Quirky lil quiz about</h3>
@@ -110,10 +111,10 @@ export default function Home() {
               </div>
 
             
-              {/* Card 1 */}
+              {/* Card 1 *
               <div className="group perspective-1000 ">
                 <div className="relative w-full h-104 transform-style-preserve-3d transition-transform duration-500 group-hover:rotate-y-180">
-                    {/* Front of card */}
+                    {/* Front of card *
                     <div className="absolute inset-0 backface-hidden bg-white border border-none flex flex-col items-center justify-center rounded-none">
                     <div className="w-16 h-16 mb-3 flex items-center justify-center">
                         <svg viewBox="0 0 64 64" className="w-full h-full">
@@ -126,7 +127,7 @@ export default function Home() {
                     </div>
                     <p className="text-sm text-slate-700 text-center">What is a boochie boy?</p>
                     </div>
-                    {/* Back of card */}
+                    {/* Back of card *
                     <div className="absolute inset-0 backface-hidden rotate-y-180 bg-rose-100 border border-none flex items-center justify-center rounded-none">
                     <p className="text-sm text-slate-800 text-center font-medium">
                         Sarvesh's nickname for his favorite snacks!
@@ -135,7 +136,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Card 2 */}
+              {/* Card 2 *
               <div className="group perspective-1000">
                 <div className="relative w-full h-104 transform-style-preserve-3d transition-transform duration-500 group-hover:rotate-y-180">
                   <div className="absolute inset-0 backface-hidden bg-white rounded-lg border border-none flex flex-col items-center justify-center rounded-none">
@@ -158,7 +159,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Card 3 */}
+              {/* Card 3 *
               <div className="group perspective-1000">
                  <div className="relative w-full h-104 transform-style-preserve-3d transition-transform duration-500 group-hover:rotate-y-180">
                   <div className="absolute inset-0 backface-hidden bg-white rounded-lg border border-none flex flex-col items-center justify-center rounded-none">
@@ -179,7 +180,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Card 4 */}
+              {/* Card 4 *
               <div className="group perspective-1000">
                 <div className="relative w-full h-104 transform-style-preserve-3d transition-transform duration-500 group-hover:rotate-y-180">
                   <div className="absolute inset-0 backface-hidden bg-white rounded-lg border border-none flex flex-col items-center justify-center rounded-none">
@@ -198,7 +199,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Card 5 */}
+              {/* Card 5 *
               <div className="group perspective-1000">
                 <div className="relative w-full h-104 transform-style-preserve-3d transition-transform duration-500 group-hover:rotate-y-180">
                   <div className="absolute inset-0 backface-hidden bg-white rounded-lg border border-none flex flex-col items-center justify-center rounded-none">
@@ -259,7 +260,7 @@ export default function Home() {
             </div>
           </Card>
         </div>
-      </section>
+      </section>   */}
 
       {/* Marriage Celebration Section */}
       <section className="py-20 relative z-10 bg-rose-50" style={{ backgroundColor: "#FFF4F0" }}>
