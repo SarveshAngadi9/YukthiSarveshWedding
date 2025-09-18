@@ -111,7 +111,7 @@ const Decorative: React.FC = () => {
       </div>
 
       {/* --- Bottom-right yellow plant (explicit, always visible, scaled) --- */}
-      <div className="absolute bottom-4 left-6 sm:bottom-8 sm:left-14 md:bottom-16 md:left-[26rem] w-28 h-32 sm:w-[220px] sm:h-[240px] md:w-[320px] md:h-[340px] opacity-95">
+      <div className="absolute bottom-4 left-6 sm:bottom-8 sm:left-14 md:bottom-16 md:left-[26rem] w-38 h-42 sm:w-[220px] sm:h-[240px] md:w-[320px] md:h-[340px] opacity-95">
         <svg viewBox="0 0 120 140" className="w-full h-full" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="yellow plant with decorative dots">
           <path d="M55,140 Q40,100 30,60 Q25,35 35,20 Q50,40 48,80 Q47,110 55,140 Z M65,140 Q60,90 62,50 Q63,25 70,10 Q78,30 76,70 Q74,110 70,140 Z M75,140 Q85,100 90,70 Q93,40 85,25 Q80,50 78,90 Q77,115 75,140 Z" fill="#e0b222" />
           <circle cx="55" cy="65" r="3" fill="#163830" />
