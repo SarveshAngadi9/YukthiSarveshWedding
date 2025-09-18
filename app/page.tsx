@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card"
 import Decorative from "../components/Decorative";
-import AbstractYellowFlower from "../components/YF";
+
 
 export default function Home() {
   return (
@@ -10,12 +10,13 @@ export default function Home() {
       
       <section className="relative z-10 min-h-screen flex flex-col justify-center items-center text-center">
 
-        <Decorative />
-        <AbstractYellowFlower />
+        
+        
        
        <div className="max-w-6xl mx-auto px-4">
+        <Decorative />
             <p className="text-l font-weight: normal tracking-widest text-slate-600 mb-12 font-mono -mt-10">October 27 2025</p> 
-                <h1 className="text-4xl sm:text-6xl md:text-8xl font-normal heading-lean text-slate-800"> 
+                <h1 className="text-6xl sm:text-6xl md:text-8xl font-normal heading-lean text-slate-800"> 
                     Yukthi 
                         <br /> 
                     Sarvesh 

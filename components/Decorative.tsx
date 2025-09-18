@@ -1,8 +1,9 @@
 ﻿import React from "react";
+import AbstractYellowFlower from "../components/YF";
 
 const Decorative: React.FC = () => {
   return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
       {/* --- Large dark green organic plant form on the left --- */}
       <div className="absolute left-0 top-0 w-64 h-72 sm:w-48 sm:h-64 md:w-[500px] md:h-[600px]">
         <svg viewBox="0 0 320 420" className="w-full h-full" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="big decorative plant">
@@ -53,7 +54,7 @@ const Decorative: React.FC = () => {
       </div>
 
       {/* --- Flowing curved lines left area --- */}
-      <div className="absolute top-10 left-1/4 sm:top-14 sm:left-1/3 w-40 h-28 sm:w-56 sm:h-40 md:w-64 md:h-48 opacity-60">
+      <div className="absolute top-32 left-2/8 sm:top-14 sm:left-1/3 w-40 h-28 sm:w-56 sm:h-40 md:w-64 md:h-48 opacity-60">
         <svg viewBox="0 0 200 150" className="w-full h-full">
           <path d="M0,75 Q50,25 100,50 Q150,75 200,25" stroke="#8fbc8f" strokeWidth="3" fill="none" />
           <path d="M0,100 Q60,60 120,85 Q180,110 200,70" stroke="#8fbc8f" strokeWidth="2" fill="none" />
@@ -61,7 +62,7 @@ const Decorative: React.FC = () => {
       </div>
 
       {/* --- Flowing curved lines center-right --- */}
-      <div className="absolute top-[40%] left-[60%] sm:left-[66%] md:left-[70%] w-40 h-28 sm:w-56 sm:h-40 md:w-64 md:h-48 opacity-60">
+      <div className="absolute top-[80%] left-[60%] sm:left-[66%] md:left-[70%] w-40 h-28 sm:w-56 sm:h-40 md:w-64 md:h-48 opacity-60">
         <svg viewBox="0 0 200 150" className="w-full h-full">
           <path d="M0,100 Q60,60 120,85 Q180,110 200,70" stroke="#8fbc8f" strokeWidth="2" fill="none" />
         </svg>
@@ -75,14 +76,14 @@ const Decorative: React.FC = () => {
       </div>
 
       {/* --- Top-left petal (scaled) --- */}
-      <div className="absolute top-0 left-4 w-48 h-48 sm:w-72 sm:h-72 md:w-96 md:h-96 opacity-15">
+      <div className="absolute top-0 left-12 w-48 h-48 sm:w-72 sm:h-72 md:w-96 md:h-96 opacity-5">
         <svg viewBox="0 0 400 400" className="w-full h-full">
           <path d="M50,200 Q100,50 200,100 Q300,150 350,250 Q300,350 200,300 Q100,350 50,200 Z" fill="#f8b4b4" />
         </svg>
       </div>
 
       {/* --- Bottom-left petals (faint) --- */}
-      <div className="absolute bottom-0 left-0 w-32 h-32 sm:w-60 sm:h-60 md:w-80 md:h-80 opacity-8">
+      <div className="absolute bottom-1/8 left-2/7 w-32 h-32 sm:w-60 sm:h-60 md:w-80 md:h-80 opacity-8">
         <svg viewBox="0 0 300 300" className="w-full h-full">
           <path d="M0,150 Q75,50 150,100 Q225,150 300,100 Q225,250 150,200 Q75,250 0,150 Z" fill="#f8b4b4" />
         </svg>
@@ -96,7 +97,7 @@ const Decorative: React.FC = () => {
       </div>
 
       {/* --- Right-side green/abstract blob (explicit, always visible, scaled) --- */}
-     <div className="absolute bottom-12 right-6 sm:bottom-16 sm:right-12 md:bottom-24 md:right-32 w-28 h-32 sm:w-32 sm:h-40 md:w-64 md:h-48 opacity-70">
+     <div className="absolute bottom-38 right-6 sm:bottom-16 sm:right-12 md:bottom-24 md:right-32 w-32 h-36 sm:w-32 sm:h-40 md:w-64 md:h-48 opacity-70">
         <svg viewBox="0 0 200 160" className="w-full h-full" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="abstract blob with plant form">
           <path d="M20,80 Q30,30 80,40 Q140,50 170,90 Q150,140 80,130 Q30,120 20,80 Z" fill="#f9f4f2" stroke="#163830" strokeWidth="2" />
           <circle cx="55" cy="70" r="4" fill="#c8d8c4" />
@@ -124,14 +125,14 @@ const Decorative: React.FC = () => {
       </div>
 
       {/* --- Small decorative dots (various places) --- */}
-      <div className="absolute top-1/6 left-1/2 w-2 h-2 sm:w-3 sm:h-3 bg-rose-300 rounded-full opacity-40"></div>
+      <div className="absolute top-4/6 left-1/2 w-2 h-2 sm:w-3 sm:h-3 bg-rose-300 rounded-full opacity-40"></div>
       <div className="absolute top-[83%] left-[66%] w-2 h-2 sm:w-3 sm:h-3 bg-yellow-300 rounded-full opacity-50"></div>
       <div className="absolute top-2/5 left-1/6 w-2 h-2 sm:w-3 sm:h-3 bg-yellow-300 rounded-full opacity-50"></div>
-      <div className="absolute bottom-1/3 right-1/5 w-2 h-2 sm:w-4 sm:h-4 bg-orange-300 rounded-full opacity-30"></div>
-      <div className="absolute top-3/4 left-2/3 w-2 h-2 sm:w-3 sm:h-3 bg-green-300 rounded-full opacity-60"></div>
+      <div className="absolute bottom-4/3 right-1/5 w-2 h-2 sm:w-4 sm:h-4 bg-orange-300 rounded-full opacity-30"></div>
+      <div className="absolute top-24 left-2/3 w-2 h-2 sm:w-3 sm:h-3 bg-green-300 rounded-full opacity-60"></div>
 
       {/* Yellow flower beside names */}
-        <div className="absolute top-2/4 left-5/9 translate-x-[120%] sm:translate-x-[150%] md:translate-x-[180%] -translate-y-1/4 w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16">
+        <div className="absolute top-2/4 left-6/9 translate-x-[120%] sm:translate-x-[150%] md:translate-x-[180%] -translate-y-1/4 w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16">
           <svg
             viewBox="0 0 100 100"
             className="w-full h-full"
@@ -159,7 +160,39 @@ const Decorative: React.FC = () => {
           </svg>
         </div>
 
+        <AbstractYellowFlower />
 
+        <div className="absolute 
+        top-1/3 left-1/4 w-10 h-10    /* 📱 mobile */
+        sm:top-1/4 sm:left-1/3 sm:w-16 sm:h-16   /* 📱+ small screens */
+        md:top-1/5 md:left-1/3 md:w-[100px] md:h-[100px]   /* 💻 medium/desktop */
+        ">
+        <svg
+        viewBox="0 0 100 100"
+        className="w-full h-full"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label="abstract pink flower"
+        >
+        <path
+            d="M50 10 
+                Q55 25 70 20 
+                Q80 25 75 40 
+                Q90 45 80 55 
+                Q90 70 70 70 
+                Q75 85 60 80 
+                Q55 95 45 85 
+                Q35 95 30 80 
+                Q15 85 20 70 
+                Q5 65 15 55 
+                Q5 45 20 40 
+                Q15 25 30 25 
+                Q35 10 50 10 Z"
+            fill="#ECB197"   /* soft pink */
+        />
+        <circle cx="50" cy="50" r="10" fill="#fde2e4" /> {/* pale pink center */}
+        </svg>
+    </div>
     </div>
   );
 };

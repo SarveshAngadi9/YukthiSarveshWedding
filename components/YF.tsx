@@ -1,9 +1,13 @@
-// components/AbstractYellowFlower.tsx
+﻿// components/AbstractYellowFlower.tsx
 import React from "react";
 
 const AbstractYellowFlower: React.FC = () => {
   return (
-    <div className="absolute top-1/6 left-3/4 w-[120px] h-[120px]">
+    <div className="absolute 
+              top-1/4 left-2/3 w-12 h-12   /* 📱 mobile */
+              sm:top-1/5 sm:left-2/3 sm:w-20 sm:h-20   /* 📱+ small screens */
+              md:top-1/6 md:left-3/4 md:w-[120px] md:h-[120px]   /* 💻 medium/desktop */
+            ">
       <svg
         viewBox="0 0 100 100"
         className="w-full h-full"

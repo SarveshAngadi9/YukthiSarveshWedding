@@ -16,8 +16,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Daniela & Moe - Wedding Celebration",
-  description: "Join us for our wedding celebration in California",
+  title: "Yukthi & Sarvesh - Wedding Celebration",
+  description: "Join us for our wedding celebration in Madikeri",
   generator: "v0.app",
 }
 
