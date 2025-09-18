@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card"
 import Decorative from "../components/Decorative";
-
+import Decorative2 from "@/components/Decorative2";
+import Decorative3 from "@/components/Decorative3";
 
 export default function Home() {
   return (
@@ -58,15 +59,15 @@ export default function Home() {
           </h2>
           <div className="max-w-5xl mx-auto px-4">
               <p className="text-2xl md:text-xl font-serif text-slate-700 leading-10  text-justify">
-                We first met at the office — not love at first sight, but a smile that refused to fade.
-                Those little conversations soon turned into hours of sharing thoughts, emotions, and big ideas about life.
-                Yukthi’s kindness, empathy, and laughter pulled Sarvesh closer every single day.
-    
+                It wasn’t love at first sight — it was a bond that grew with time. 
+                As our lives unfolded onto each other, conversations deepened, ideas flowed, 
+                and a foundation of understanding and respect took root.
               </p>
               <p className="text-2xl md:text-xl font-serif text-slate-700 leading-10  text-justify mt-6">
-                Together we’ve faced every emotion — anger, jealousy, joy, and endless laughter and grown stronger through it all.
-                From Kotagiri to Ooty to Gokarna, adventures only proved how unshakable this bond really is.
-                And now… the wait is over! Sarvesh and Yukthi are getting married — come celebrate love, laughter, and the start of forever! 💍✨
+                What started as passing discussions soon turned into long exchanges about life, ambitions, and dreams. 
+                With every conversation, the connection deepened, and so did the friendship — eventually leading us to this beautiful step forward.
+
+                And now… the wait is over! We are getting married — come celebrate love, laughter, and the start of forever! 💍✨
               </p>
             </div>
         </div>
@@ -262,127 +263,33 @@ export default function Home() {
 
       {/* Marriage Celebration Section */}
       <section className="py-20 relative z-10 bg-rose-50" style={{ backgroundColor: "#FFF4F0" }}>
-        <div className="absolute left-0 top-1/2 -translate-y-1/2 w-64 h-64 opacity-60">
-          <svg viewBox="0 0 200 200" className="w-full h-full">
-            <g transform="translate(100,100)">
-              <path
-                d="M0,-40 Q-15,-25 -25,-10 Q-15,5 0,0 Q15,5 25,-10 Q15,-25 0,-40 Z"
-                fill="#f4d03f"
-                transform="rotate(0)"
-              />
-              <path
-                d="M0,-40 Q-15,-25 -25,-10 Q-15,5 0,0 Q15,5 25,-10 Q15,-25 0,-40 Z"
-                fill="#f4d03f"
-                transform="rotate(72)"
-              />
-              <path
-                d="M0,-40 Q-15,-25 -25,-10 Q-15,5 0,0 Q15,5 25,-10 Q15,-25 0,-40 Z"
-                fill="#f4d03f"
-                transform="rotate(144)"
-              />
-              <path
-                d="M0,-40 Q-15,-25 -25,-10 Q-15,5 0,0 Q15,5 25,-10 Q15,-25 0,-40 Z"
-                fill="#f4d03f"
-                transform="rotate(216)"
-              />
-              <path
-                d="M0,-40 Q-15,-25 -25,-10 Q-15,5 0,0 Q15,5 25,-10 Q15,-25 0,-40 Z"
-                fill="#f4d03f"
-                transform="rotate(288)"
-              />
-              <circle cx="0" cy="0" r="8" fill="#e67e22" />
-            </g>
-          </svg>
-        </div>
-
-        <div className="absolute right-0 top-0 w-80 h-full opacity-30">
-          <svg viewBox="0 0 300 600" className="w-full h-full">
-            <path d="M250,100 Q200,50 150,100 Q100,150 150,200 Q200,250 250,200 Q300,150 250,100 Z" fill="#f8b4b4" />
-            <path d="M280,300 Q230,250 180,300 Q130,350 180,400 Q230,450 280,400 Q330,350 280,300 Z" fill="#e8a87c" />
-          </svg>
-        </div>
-
-        <div className="absolute top-0 left-1/3 w-32 h-32 opacity-20">
-          <svg viewBox="0 0 100 100" className="w-full h-full">
-            <path d="M50,10 Q80,25 90,50 Q80,75 50,90 Q20,75 10,50 Q20,25 50,10 Z" fill="#f4d03f" />
-          </svg>
-        </div>
-
-        <div className="absolute bottom-1/3 left-1/2 w-40 h-40 opacity-15">
-          <svg viewBox="0 0 120 120" className="w-full h-full">
-            <path d="M60,15 Q90,30 105,60 Q90,90 60,105 Q30,90 15,60 Q30,30 60,15 Z" fill="#e8a87c" />
-          </svg>
-        </div>
-
-        <div className="absolute top-1/4 right-1/3 w-24 h-24 opacity-20">
-          <svg viewBox="0 0 80 80" className="w-full h-full">
-            <path d="M40,10 Q60,20 70,40 Q65,60 50,75 Q35,85 20,75 Q10,60 15,40 Q25,20 40,10 Z" fill="#d4a574" />
-          </svg>
-        </div>
-
         <div className="max-w-2xl mx-auto px-4 text-center relative z-10">
-          <p className="text-xs tracking-widest text-slate-600 mb-6 font-mono">JOIN US IN CALIFORNIA</p>
+        < Decorative2 />
+          <p className="text-xs tracking-widest text-slate-600 mb-6 font-mono">JOIN US IN MADIKERI</p>
           <h2 className="text-4xl font-serif text-slate-800 mb-8 tracking-wide">MARRIAGE CELEBRATION</h2>
           <p className="text-slate-700 leading-relaxed text-lg">
-            We will marry in San Francisco in August 2019 at a small ceremony with our parents. But we definitely want
-            to celebrate this special event with all our friends and family. Whether flying in or driving in, we hope to
-            dance the night away in beautiful LA!
-          </p>
-        </div>
+            We’re beginning our forever in Madikeri, surrounded by our family, friends and the hills. 🌿 </p>
+          
+          <p className="text-slate-700 leading-relaxed text-lg">
+            But one celebration is never enough — so we’re bringing the party to Hampi! 🎉 </p>
 
-        <div className="absolute right-8 bottom-0 w-48 h-48 opacity-50">
-          <svg viewBox="0 0 150 150" className="w-full h-full">
-            <g>
-              <ellipse cx="75" cy="130" rx="3" ry="15" fill="#228b22" />
-              <ellipse cx="60" cy="100" rx="15" ry="8" fill="#32cd32" transform="rotate(-30 60 100)" />
-              <ellipse cx="90" cy="100" rx="15" ry="8" fill="#32cd32" transform="rotate(30 90 100)" />
-              <ellipse cx="50" cy="70" rx="12" ry="6" fill="#228b22" transform="rotate(-45 50 70)" />
-              <ellipse cx="100" cy="70" rx="12" ry="6" fill="#228b22" transform="rotate(45 100 70)" />
-              <ellipse cx="75" cy="50" rx="18" ry="10" fill="#32cd32" />
-            </g>
-          </svg>
+            < br/>
+          <p className="text-slate-700 leading-relaxed text-lg">
+            Whether you’re flying in, driving in, or just showing up ready to groove,
+            we can’t wait to eat, laugh, and dance the night away with all our favorite people.
+          </p>
         </div>
       </section>
 
       {/* Weekend Events Section */}
       <section className="py-20 relative z-10 bg-rose-50" style={{ backgroundColor: "#FFF4F0" }}>
-        <div className="absolute left-0 bottom-0 w-96 h-96 opacity-20">
-          <svg viewBox="0 0 400 400" className="w-full h-full">
-            <path
-              d="M50,350 Q100,250 200,300 Q300,350 350,250 Q300,150 200,200 Q100,150 50,250 Q100,350 50,350 Z"
-              fill="#f8b4b4"
-            />
-          </svg>
-        </div>
-
-        <div className="absolute top-0 right-1/4 w-40 h-40 opacity-25">
-          <svg viewBox="0 0 120 120" className="w-full h-full">
-            <path d="M60,15 Q90,30 105,60 Q90,90 60,105 Q30,90 15,60 Q30,30 60,15 Z" fill="#e8a87c" />
-          </svg>
-        </div>
-
-        <div className="absolute bottom-1/4 right-0 w-56 h-56 opacity-15">
-          <svg viewBox="0 0 180 180" className="w-full h-full">
-            <path d="M90,20 Q140,35 160,90 Q140,145 90,160 Q40,145 20,90 Q40,35 90,20 Z" fill="#d4a574" />
-          </svg>
-        </div>
-
-        <div className="absolute top-1/3 left-1/5 w-48 h-48 opacity-12">
-          <svg viewBox="0 0 150 150" className="w-full h-full">
-            <path d="M75,15 Q120,30 135,75 Q120,120 75,135 Q30,120 15,75 Q30,30 75,15 Z" fill="#f4d03f" />
-          </svg>
-        </div>
-
-        <div className="absolute bottom-0 left-1/3 w-64 h-64 opacity-10">
-          <svg viewBox="0 0 200 200" className="w-full h-full">
-            <path d="M100,20 Q160,40 180,100 Q160,160 100,180 Q40,160 20,100 Q40,40 100,20 Z" fill="#f8b4b4" />
-          </svg>
-        </div>
+        <Decorative3 />
 
         <div className="absolute top-1/6 left-3/4 w-5 h-5 bg-orange-300 rounded-full opacity-40"></div>
         <div className="absolute bottom-1/3 right-1/4 w-3 h-3 bg-green-300 rounded-full opacity-50"></div>
 
         <div className="max-w-4xl mx-auto px-4 relative z-10">
+        <div className="absolute top-24 left-2/5 w-2 h-2 sm:w-3 sm:h-3 bg-rose-300 rounded-full opacity-40"></div>
           <div className="text-center mb-16">
             <p className="text-xs tracking-widest text-slate-600 mb-6 font-mono">FUN IN THE SUN</p>
             <h2 className="text-5xl font-serif text-slate-800 leading-tight">
