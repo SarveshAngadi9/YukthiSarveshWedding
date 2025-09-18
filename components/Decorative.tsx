@@ -4,7 +4,7 @@ const Decorative: React.FC = () => {
   return (
     <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
       {/* --- Large dark green organic plant form on the left --- */}
-      <div className="absolute left-0 top-0 w-44 h-52 sm:w-48 sm:h-64 md:w-[500px] md:h-[600px]">
+      <div className="absolute left-0 top-0 w-64 h-72 sm:w-48 sm:h-64 md:w-[500px] md:h-[600px]">
         <svg viewBox="0 0 320 420" className="w-full h-full" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="big decorative plant">
           <path d="M60,420 Q75,360 90,300 Q105,240 120,180 Q135,120 150,60 Q165,30 170,0" stroke="#1a5f5f" strokeWidth="10" fill="none" />
           <ellipse cx="50" cy="140" rx="30" ry="55" fill="#1a5f5f" transform="rotate(-20 50 140)" />
