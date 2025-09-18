@@ -26,7 +26,7 @@ export default function Home() {
        </section>
 
       {/* Our Story Section */}
-      <section className="py-20 relative z-10 bg-rose-50" style={{ backgroundColor: "#FEF1EC" }}>
+      <section className="py-20 relative z-10 bg-rose-50" style={{ backgroundColor: "#FFF3F0" }}>
         {/* <div className="absolute top-0 right-0 w-48 h-48 opacity-15">
           <svg viewBox="0 0 150 150" className="w-full h-full">
             <path d="M75,15 Q120,30 135,75 Q120,120 75,135 Q30,120 15,75 Q30,30 75,15 Z" fill="#d4a574" />
@@ -58,15 +58,18 @@ export default function Home() {
             DANCE, DANCE, DANCE
           </h2>
           <div className="max-w-5xl mx-auto px-4">
-              <p className="text-2xl md:text-xl font-serif text-slate-700 leading-10  text-justify">
+              <p className="text-slate-700 leading-relaxed text-lg">
                 It wasn’t love at first sight — it was a bond that grew with time. 
                 As our lives unfolded onto each other, conversations deepened, ideas flowed, 
                 and a foundation of understanding and respect took root.
               </p>
-              <p className="text-2xl md:text-xl font-serif text-slate-700 leading-10  text-justify mt-6">
+              < br/>
+              <p className="text-slate-700 leading-relaxed text-lg">
                 What started as passing discussions soon turned into long exchanges about life, ambitions, and dreams. 
                 With every conversation, the connection deepened, and so did the friendship — eventually leading us to this beautiful step forward.
-
+                </p>
+                < br/>
+              <p className="text-slate-700 leading-relaxed text-lg">
                  Come celebrate, cheer us on, and be part of our story as we begin this brand-new adventure together. 💍✨
               </p>
             </div>
@@ -286,69 +289,113 @@ export default function Home() {
       <section className="py-20 relative z-10 bg-rose-50" style={{ backgroundColor: "#FFF4F0" }}>
         <Decorative3 />
 
+        {/* Floating decorative dots */}
         <div className="absolute top-1/6 left-3/4 w-5 h-5 bg-orange-300 rounded-full opacity-40"></div>
         <div className="absolute bottom-1/3 right-1/4 w-3 h-3 bg-green-300 rounded-full opacity-50"></div>
+        <div className="absolute top-24 left-2/5 w-2 h-2 sm:w-3 sm:h-3 bg-rose-300 rounded-full opacity-40"></div>
 
         <div className="max-w-4xl mx-auto px-4 relative z-10">
-        <div className="absolute top-24 left-2/5 w-2 h-2 sm:w-3 sm:h-3 bg-rose-300 rounded-full opacity-40"></div>
-          <div className="text-center mb-16">
-            <p className="text-xs tracking-widest text-slate-600 mb-6 font-mono">FUN IN THE SUN</p>
-            <h2 className="text-5xl font-serif text-slate-800 leading-tight">
-              Weekend
-              <br />
-              Events
+        {/* Section header */}
+        <div className="text-center mb-16">
+            <p className="text-xs tracking-widest text-slate-600 mb-6 font-mono">Mountains, Breeze & Memories 🌄</p>
+            <h2 className="text-5xl md:text-6xl font-serif text-slate-800 leading-tight">
+            Weekend
+            <br />
+            Events
             </h2>
-          </div>
+        </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-            <div>
-              <p className="text-xs tracking-widest text-slate-600 mb-6 font-mono">THE LOCATION / ETC</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+          {/* First Event: Left column */}
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+            <p className="text-xs tracking-widest text-slate-600 mb-2 font-serif uppercase">Date</p>
+            <p className="text-2xl md:text-3xl tracking-wide text-slate-800 mb-6 font-serif">26 & 27 Oct 2025</p>
 
-              <div className="space-y-8">
-                <div className="flex gap-4">
-                  <div className="text-right min-w-[80px]">
-                    <p className="text-sm font-mono text-slate-600">THUR</p>
-                    <p className="text-2xl font-serif text-slate-800">Thursday</p>
-                  </div>
-                  <div className="flex-1">
-                    <h4 className="font-semibold text-slate-800 mb-1">Welcome Drinks</h4>
-                    <p className="text-sm text-slate-600 mb-2">TIME</p>
-                    <p className="text-sm text-slate-700">8pm to Close</p>
-                    <p className="text-sm text-slate-600 mb-2 mt-2">ATTIRE</p>
-                    <p className="text-sm text-slate-700">Poolside</p>
-                  </div>
+            <div className="space-y-6 w-full max-w-sm">
+              <div className="flex gap-4 md:gap-6">
+                <div className="min-w-[80px] flex flex-col justify-center items-center">
+                  <p className="text-xl md:text-2xl font-serif text-slate-800 ml-4 -mt-6">Saturday</p>
+                </div>
+                <div className="flex-1 ml-38">
+                  <p className="text-lg md:text-xl font-serif text-slate-600 mb-1">Time</p>
+                  <p className="text-lg md:text-xl font-serif mb-6 text-slate-700">7pm to Close</p>
                 </div>
               </div>
             </div>
 
-            <div className="relative">
-              <img
-                src="/rooftop-bar-with-city-view-at-sunset.jpg"
-                alt="Rooftop venue"
-                className="w-full h-64 object-cover rounded-lg"
-              />
+            <p className="text-xs tracking-widest text-slate-600 font-serif uppercase text-center mb-4 leading-none">The Location</p>
+            <p className="text-xl md:text-3xl tracking-wide text-slate-800 font-serif text-center mb-4 leading-none">Crystal Hall, Madikeri</p>
+          </div>
+
+          {/* First Event Image */}
+          <div className="flex flex-col gap-6">
+            <div className="relative w-full h-64 rounded-lg overflow-hidden">
+              <img src="/coorg.jpg" alt="Madikeri" className="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          {/* Second Event: Left column */}
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+            <p className="text-xs tracking-widest text-slate-600 mb-2 font-serif uppercase">Date</p>
+            <p className="text-2xl md:text-3xl tracking-wide text-slate-800 mb-1 font-serif">02 Nov 2025</p>
+            <p className="text-lg md:text-2xl font-serif text-slate-800 mb-6">Reception</p>
+
+            <div className="space-y-6 w-full max-w-sm">
+              <div className="flex gap-4 md:gap-6">
+                <div className="min-w-[80px] flex flex-col justify-center items-center">
+                  <p className="text-xl md:text-2xl font-serif text-slate-800 ml-4 -mt-6">Sunday</p>
+                </div>
+                <div className="flex-1 ml-38">
+                  <p className="text-lg md:text-xl font-serif text-slate-600 mb-1">Time</p>
+                  <p className="text-lg md:text-xl font-serif mb-6 text-slate-700">12pm to 4pm</p>
+                </div>
+              </div>
+            </div>
+
+            <p className="text-xs tracking-widest text-slate-600 font-serif uppercase text-center mb-4 leading-none">The Location</p>
+            <p className="text-xl md:text-3xl tracking-wide text-slate-800 font-serif text-center leading-none">Amar Jyothi, Gangavathi</p>
+          </div>
+
+          {/* Second Event Image */}
+          <div className="flex flex-col gap-6">
+            <div className="relative w-full h-64 rounded-lg overflow-hidden">
+              <img src="/hampi.jpeg" alt="Hampi" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
-      </section>
+
+        </div>
+        </section>
+
 
       <section className="py-20 relative bg-rose-50 flex items-center justify-center">
-        <div className="relative">
-          {/* Rotating circular text */}
-          <div className="w-48 h-48 relative animate-spin-slow">
+        <div className="relative w-48 h-48">
+        {/* Rotating circular text */}
+        <div className="w-full h-full animate-spin-slow">
             <svg viewBox="0 0 200 200" className="w-full h-full">
-              <defs>
-                <path id="circle-path" d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0" />
-              </defs>
-              <text className="text-xs font-mono tracking-widest fill-slate-600">
+            <defs>
+                <path
+                id="circle-path"
+                d="M 100, 100 m -80, 0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"
+                />
+            </defs>
+            <text className="text-xs font-mono tracking-widest fill-slate-600">
                 <textPath href="#circle-path" startOffset="0%">
-                  YUKTHI & SARVESH • 27/10/25 • YUKTHI & SARVESH • 27/10/25 • YUKTHI & SARVESH • 27/10/25 •
+                ❤️💍🎉 YUKTHI & SARVESH • 02/11/25 • MADIKERI & HAMPI • 26/10/25 • YUKTHI & SARVESH • 02/11/25 •
                 </textPath>
-              </text>
+            </text>
             </svg>
-          </div>
         </div>
-      </section>
-    </div>
+
+        {/* Image in the center */}
+        <div className="absolute inset-0 flex items-center justify-center">
+            <img
+          src="/pixie.jpg"
+          className="w-36 h-36 rounded-full object-cover [object-position:20%_center]"
+            />
+        </div>
+        </div>
+    </section>
+   </div>
   )
 }
