@@ -390,7 +390,7 @@ export default function Home() {
         {/* Image in the center */}
         <div className="absolute inset-0 flex items-center justify-center">
             <img
-          src="/pixie.jpg"
+          src="pixie.jpg"
           className="w-36 h-36 rounded-full object-cover [object-position:20%_center]"
             />
         </div>
