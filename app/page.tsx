@@ -330,7 +330,7 @@ export default function Home() {
           {/* First Event Image */}
           <div className="flex flex-col gap-6">
             <div className="relative w-full h-64 rounded-lg overflow-hidden">
-              <img src="/coorg.jpg" alt="Madikeri" className="w-full h-full object-cover" />
+              <img src="coorg.jpg" alt="Madikeri" className="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -359,7 +359,7 @@ export default function Home() {
           {/* Second Event Image */}
           <div className="flex flex-col gap-6">
             <div className="relative w-full h-64 rounded-lg overflow-hidden">
-              <img src="/hampi.jpeg" alt="Hampi" className="w-full h-full object-cover" />
+              <img src="hampi.jpeg" alt="Hampi" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
