@@ -16,7 +16,7 @@ export default function Home() {
        
        <div className="max-w-6xl mx-auto px-4">
         <Decorative />
-            <p className="text-l font-weight: normal tracking-widest text-slate-600 mb-12 font-mono -mt-10">October 27 2025</p> 
+            <p className="text-l font-weight: normal tracking-widest text-slate-600 mb-12 font-mono -mt-10 z-20">October 27 2025</p> 
                 <h1 className="text-6xl sm:text-6xl md:text-8xl font-normal heading-lean text-slate-800"> 
                     Yukthi 
                         <br /> 
@@ -324,7 +324,7 @@ export default function Home() {
             </div>
 
             <p className="text-xs tracking-widest text-slate-600 font-serif uppercase text-center mb-4 leading-none">The Location</p>
-            <p className="text-xl md:text-3xl tracking-wide text-slate-800 font-serif text-center mb-4 leading-none">Crystal Hall, Madikeri</p>
+            <p className="text-xl md:text-3xl tracking-wide text-slate-800 font-serif text-center leading-none">Crystal Hall, Madikeri</p>
           </div>
 
           {/* First Event Image */}
@@ -368,8 +368,8 @@ export default function Home() {
         </section>
 
 
-      <section className="py-20 relative bg-rose-50 flex items-center justify-center">
-        <div className="relative w-48 h-48">
+      <section className="py-0 relative bg-rose-50 flex items-center justify-center">
+        <div className="relative w-48 h-48 -mt-2">
         {/* Rotating circular text */}
         <div className="w-full h-full animate-spin-slow">
             <svg viewBox="0 0 200 200" className="w-full h-full">

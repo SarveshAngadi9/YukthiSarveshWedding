@@ -166,7 +166,7 @@ const Decorative: React.FC = () => {
         top-1/3 left-1/4 w-10 h-10    /* 📱 mobile */
         sm:top-1/4 sm:left-1/3 sm:w-16 sm:h-16   /* 📱+ small screens */
         md:top-1/5 md:left-1/3 md:w-[100px] md:h-[100px]   /* 💻 medium/desktop */
-        ">
+        z-0">
         <svg
         viewBox="0 0 100 100"
         className="w-full h-full"
