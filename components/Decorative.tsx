@@ -1,6 +1,7 @@
 ﻿import React from "react";
 import AbstractYellowFlower from "../components/YF";
 
+
 const Decorative: React.FC = () => {
   return (
     <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
@@ -163,7 +164,7 @@ const Decorative: React.FC = () => {
         <AbstractYellowFlower />
 
         <div className="absolute 
-        top-1/3 left-1/4 w-10 h-10    /* 📱 mobile */
+        top-2/8 left-1/4 w-10 h-10    /* 📱 mobile */
         sm:top-1/4 sm:left-1/3 sm:w-16 sm:h-16   /* 📱+ small screens */
         md:top-1/5 md:left-1/3 md:w-[100px] md:h-[100px]   /* 💻 medium/desktop */
         z-0">

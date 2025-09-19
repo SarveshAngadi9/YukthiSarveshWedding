@@ -15,7 +15,9 @@ export default function Home() {
         
        
        <div className="max-w-6xl mx-auto px-4">
-        <Decorative />
+        <div className="absolute inset-0 z-0">
+          <Decorative />
+        </div>
             <p className="text-l font-weight: normal tracking-widest text-slate-600 mb-12 font-mono -mt-10 z-20">October 27 2025</p> 
                 <h1 className="text-7xl sm:text-6xl md:text-8xl font-serif tracking-widest mb-3 text-slate-800"> 
                     Yukthi 
@@ -310,7 +312,8 @@ export default function Home() {
           {/* First Event: Left column */}
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <p className="text-xs tracking-widest text-slate-600 mb-2 font-serif uppercase">Date</p>
-            <p className="text-2xl md:text-3xl tracking-wide text-slate-800 mb-6 font-serif">26 & 27 Oct 2025</p>
+            <p className="text-2xl md:text-3xl tracking-wide text-slate-800 mb-2 font-serif">26 & 27 Oct 2025</p>
+            <p className="text-lg md:text-2xl font-serif text-slate-800 mb-6">Reception & Wedding</p>
 
             <div className="space-y-6 w-full max-w-sm">
               <div className="flex gap-4 md:gap-6">
@@ -327,7 +330,7 @@ export default function Home() {
             <div className="space-y-6 w-full max-w-sm">
               <div className="flex gap-4 md:gap-6">
                 <div className="min-w-[80px] flex flex-col justify-center items-center">
-                  <p className="text-xl md:text-2xl font-serif text-slate-800 ml-4 -mt-6">Monday</p>
+                  <p className="text-xl md:text-2xl font-serif text-slate-800 ml-4 -mt-6 mb-1">Monday</p>
                 </div>
                 <div className="flex-1 ml-38">
                   <p className="text-lg md:text-xl font-serif text-slate-600 mb-1">Time</p>
@@ -350,7 +353,7 @@ export default function Home() {
           {/* Second Event: Left column */}
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <p className="text-xs tracking-widest text-slate-600 mb-2 font-serif uppercase">Date</p>
-            <p className="text-2xl md:text-3xl tracking-wide text-slate-800 mb-1 font-serif">02 Nov 2025</p>
+            <p className="text-2xl md:text-3xl tracking-wide text-slate-800 mb-2 font-serif">02 Nov 2025</p>
             <p className="text-lg md:text-2xl font-serif text-slate-800 mb-6">Reception</p>
 
             <div className="space-y-6 w-full max-w-sm">
@@ -394,7 +397,7 @@ export default function Home() {
             </defs>
             <text className="text-xs font-mono tracking-widest fill-slate-600">
                 <textPath href="#circle-path" startOffset="0%">
-                ❤️💍🎉 YUKTHI & SARVESH • 02/11/25 • MADIKERI & HAMPI • 26/10/25 • YUKTHI & SARVESH • 02/11/25 •
+                💍 YUKTHI & SARVESH • 02/11/25 • MADIKERI & HAMPI • 27/10/25 • YUKTHI & SARVESH •
                 </textPath>
             </text>
             </svg>
