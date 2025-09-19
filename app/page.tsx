@@ -17,9 +17,10 @@ export default function Home() {
        <div className="max-w-6xl mx-auto px-4">
         <Decorative />
             <p className="text-l font-weight: normal tracking-widest text-slate-600 mb-12 font-mono -mt-10 z-20">October 27 2025</p> 
-                <h1 className="text-6xl sm:text-6xl md:text-8xl font-normal heading-lean text-slate-800"> 
+                <h1 className="text-7xl sm:text-6xl md:text-8xl font-serif tracking-widest mb-3 text-slate-800"> 
                     Yukthi 
-                        <br /> 
+                </h1> 
+                <h1 className="text-7xl sm:text-6xl md:text-8xl font-serif tracking-widest text-slate-800"> 
                     Sarvesh 
                 </h1> 
        </div> 
@@ -314,11 +315,23 @@ export default function Home() {
             <div className="space-y-6 w-full max-w-sm">
               <div className="flex gap-4 md:gap-6">
                 <div className="min-w-[80px] flex flex-col justify-center items-center">
-                  <p className="text-xl md:text-2xl font-serif text-slate-800 ml-4 -mt-6">Saturday</p>
+                  <p className="text-xl md:text-2xl font-serif text-slate-800 ml-4 -mt-6">Sunday</p>
                 </div>
                 <div className="flex-1 ml-38">
                   <p className="text-lg md:text-xl font-serif text-slate-600 mb-1">Time</p>
                   <p className="text-lg md:text-xl font-serif mb-6 text-slate-700">7pm to Close</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-6 w-full max-w-sm">
+              <div className="flex gap-4 md:gap-6">
+                <div className="min-w-[80px] flex flex-col justify-center items-center">
+                  <p className="text-xl md:text-2xl font-serif text-slate-800 ml-4 -mt-6">Monday</p>
+                </div>
+                <div className="flex-1 ml-38">
+                  <p className="text-lg md:text-xl font-serif text-slate-600 mb-1">Time</p>
+                  <p className="text-lg md:text-xl font-serif mb-6 text-slate-700">9am to 2pm</p>
                 </div>
               </div>
             </div>
